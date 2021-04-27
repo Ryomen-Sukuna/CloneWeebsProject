@@ -17,7 +17,7 @@ def progress(current, total):
             current, total, (current / total) * 100
         )
     )
-@register(outgoing=True, pattern=r"^\.protec$")
+@register(outgoing=True, pattern=r"^\.p$")
 async def _(event):
     if event.fwd_from:
         return
@@ -74,7 +74,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "protecc": "**Plugin : **`protecc`\
-    \n\n**Syntax : **`.protec`\
+    \n\n**Syntax : **`.p`\
     \n**Function : **this plugin protecc waifu"
     }
 )
