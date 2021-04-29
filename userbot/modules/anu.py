@@ -11,6 +11,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot import CMD_HELP, bot
 from userbot.events import register
 
+#Change / to ! 
 
 @register(outgoing=True, pattern=r"^\.gen(?: |$)(.*)")
 async def _(event):
