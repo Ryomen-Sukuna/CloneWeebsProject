@@ -22,7 +22,7 @@ async def _(event):
     await event.edit(f"```Generated CC {query}..```")
     async with bot.conversation("@Carol5_bot") as conv:
         try:
-            send = await conv.send_message(f"/gen {query}")
+            send = await conv.send_message(f"!gen {query}")
             await asyncio.sleep(8)
             get = await conv.get_response()
             await bot.send_read_acknowledge(conv.chat_id)
@@ -44,7 +44,7 @@ async def _(event):
     await event.edit("```Checking CC Number..```")
     async with bot.conversation("@Carol5_bot") as conv:
         try:
-            send = await conv.send_message(f"/ss {query}")
+            send = await conv.send_message(f"!ss {query}")
             await asyncio.sleep(20)
             get = await conv.get_response()
             await bot.send_read_acknowledge(conv.chat_id)
@@ -66,7 +66,7 @@ async def _(event):
     await event.edit(f"```Checking BIN {query}```")
     async with bot.conversation("@Carol5_bot") as conv:
         try:
-            send = await conv.send_message(f"/bin {query}")
+            send = await conv.send_message(f"!bin {query}")
             await asyncio.sleep(10)
             get = await conv.get_response()
             await bot.send_read_acknowledge(conv.chat_id)
@@ -88,7 +88,7 @@ async def _(event):
     await event.edit(f"```Checking SK KEY {query}```")
     async with bot.conversation("@Carol5_bot") as conv:
         try:
-            send = await conv.send_message(f"/bin {query}")
+            send = await conv.send_message(f"!bin {query}")
             await asyncio.sleep(10)
             get = await conv.get_response()
             await bot.send_read_acknowledge(conv.chat_id)
@@ -112,7 +112,7 @@ async def _(event):
     await event.edit("```Checking CC Number..```")
     async with bot.conversation("@Carol5_bot") as conv:
         try:
-            send = await conv.send_message(f"/ch {query}")
+            send = await conv.send_message(f"!ch {query}")
             await asyncio.sleep(20)
             get = await conv.get_response()
             await bot.send_read_acknowledge(conv.chat_id)
