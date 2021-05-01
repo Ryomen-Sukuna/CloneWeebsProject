@@ -27,7 +27,7 @@
 
 A modular Telegram Userbot running on Python3 with sqlalchemy database. 
 
-based on [ProjectBishSession](http://string.projectdils.repl.run) Userbot
+Click generate string session and choose telethon [ProjectBishSession](http://string.projectdils.repl.run) Userbot
  
 ## Deploy
 ### Heroku
