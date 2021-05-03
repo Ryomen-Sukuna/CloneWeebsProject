@@ -1,4 +1,4 @@
-# BotGabut Userbot
+# CloneWeebsProject
 
 <p align="center">
     <a href="https://app.codacy.com/gh/BianSepang/WeebProject/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
@@ -32,7 +32,7 @@ Click generate string session and choose telethon [ProjectBishSession](http://st
 ## Deploy
 ### Heroku
 Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Scroxy-X/WeebProject/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ryomen-Sukuna/CloneWeebsProject/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 ### "Bare hands", using Git and Python3 -- on (Linux, macOS, and Android [via Termux])
 1. Clone this repository on your local machine and `cd` (or `chdir`, anti bloat guy) to it
@@ -49,14 +49,16 @@ Click this button below to Deploy to Heroku
 ##### ※ Those steps are probably possible to pull off on Windows but it's pretty much unknown (different file tree paradigm, directory conventions, PowerShell instead of BASH or ZSH) -- If you're on Windows, you'd be better off running this on WSL (or WSL2)
 ---
 ## Credits
+* [Bian Sepang](https://github.com/BianSepang) - Weeb Project
 * [Adek Maulana](https://github.com/adekmaulana) - ProjectBish
 * [Mr. Miss](https://github.com/keselekpermen69) - UserButt
 * [Move Angel](https://github.com/MoveAngel) - One4uBot
 * [Aidil Aryanto](https://github.com/aidilaryanto) - ProjectDils
 * [Alfianandaa](https://github.com/alfianandaa) - ProjectAlf
 * [GengKapak](https://github.com/GengKapak) - DCLXVI
+* [Scroxy-X](https://github.com/Scroxy-X) - For Other Commit on This Repo
 
-and [everyone](https://github.com/BianSepang/WeebProject/graphs/contributors) that makes this userbot awesome :D
+and [everyone](https://github.com/Ryomen-Sukuna/CloneWeebsProject/graphs/contributors) that makes this userbot awesome :D
 
 ## License
 Licensed under [Raphielscape Public License](https://github.com/BianSepang/WeebProject/blob/master/LICENSE) - Version 1.d, February 2020
